@@ -41,7 +41,7 @@ resource "aws_instance" "blog" {
   subnet_id = module.blog_vpc.private_subnets[0]
 
   tags = {
-    Name = "HelloWorld"
+    Name = "HelloWorld1"
   }
 }
 
